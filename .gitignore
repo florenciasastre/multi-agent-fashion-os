@@ -1,33 +1,12 @@
-# --- SEGURIDAD (CRÍTICO) ---
 .env
-keys.json
-secrets/
-
-# --- ENTORNO DE PYTHON ---
+*.env
 venv/
-env/
-ENV/
-bin/
-lib/
-include/
-share/
-pyvenv.cfg
-
-# --- CACHÉ Y ARCHIVOS TEMPORALES ---
+.venv/
 __pycache__/
-*.py[cod]
-*$py.class
-.pytest_cache/
-.ipynb_checkpoints/
-
-# --- ARTEFACTOS Y MULTIMEDIA (Regla 6 ADK) ---
-*.png
-*.jpg
-*.jpeg
-*.gif
-outputs/
-artifacts/
-
-# --- SISTEMA OPERATIVO ---
+*.pyc
+*.pyo
+.vscode/
+.idea/
 .DS_Store
-Thumbs.db
+*.log
+.adk_cache/
