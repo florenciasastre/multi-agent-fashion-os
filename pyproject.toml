@@ -1,0 +1,10 @@
+[project]
+name = "multi-agent-fashion-os"
+version = "0.1.0"
+description = "Production-oriented prototype for multi-agent commerce orchestration in second-hand fashion."
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

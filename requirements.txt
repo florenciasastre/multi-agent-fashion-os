@@ -1,0 +1,4 @@
+python-dotenv>=1.0.0
+google-genai>=1.0.0
+google-adk
+pytest>=8.0.0
